@@ -32,8 +32,8 @@ Module BusRepeater
 from circuits.net.sockets import TCPServer, UDPClient
 from circuits.net.events import write
 
-from hfos.logger import debug, verbose
-from hfos.component import ConfigurableComponent, handler
+from isomer.logger import debug, verbose
+from isomer.component import ConfigurableComponent, handler
 
 
 class BusRepeater(ConfigurableComponent):
