@@ -61,7 +61,7 @@ This software package is a plugin module for HFOS.
 """,
     dependency_links=[],
     install_requires=[
-        'hfos>=1.0.0',
+        'hfos>=1.2',
         'hfos-navdata>=0.0.1',
     ],
     entry_points="""[isomer.components]
